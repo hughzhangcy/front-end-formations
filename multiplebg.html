@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .box{
+            width: 300px;
+            padding: 20px;
+            margin: 20px;
+            border: 20px solid black;
+        }
+        .element{
+            background-image: url(bg1.png), url(bg2.png);
+            background-position: top left, center right;
+            background-repeat: no-repeat, no-repeat;
+        }
+        .shorthand{
+            background: 
+                url(bg1.png) top left no-repeat,
+                url(bg2.png) center right no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <div class="element"></div>
+    <div class="shorthand"></div>
+</body>
+</html>
