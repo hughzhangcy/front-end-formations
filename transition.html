@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        div{
+            margin: 5px;
+        }
+        .b{
+            height: 50px;
+            width: 200px;
+            background-color: #000;
+            transition: background-color 0.2s ease-in-out 0.1s;
+/*
+            transition-property: background-color;
+            transition-duration: 0.2s;
+            transition-timing-function: ease-in-out;
+            transition-delay: 0.1s;
+*/
+        }
+        .b:hover{
+            background-color: blue;
+        }
+        
+        .r{
+            height: 50px;
+            width: 200px;
+            background-color: #f00;
+            transition: all 0.2 ease;
+        }
+        .r:hover{
+            height: 200px;
+            width: 200px;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="b"></div>
+    
+    <div class="r"></div>
+</body>
+</html>

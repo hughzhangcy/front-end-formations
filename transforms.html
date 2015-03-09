@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        div{
+            margin: 5px;
+        }
+        .b{
+            height: 50px;
+            width: 200px;
+            background: #000;
+        }
+        
+        .r{
+            height: 50px;
+            width: 200px;
+            background: #f00;
+        }
+        .translate{
+            transform: translate(20px, 30px);
+/*
+            transform: translateX(20px);
+            transform: translateY(30px;)
+*/
+        }
+        .rotate{
+            transform: rotate(45deg);
+        }
+        .scale{
+            transform: scale(1.2)
+        }
+        .skewx{
+            transform: skewX(25deg);
+        }
+        skewy{
+            transform: skewY(-85deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="b"></div>
+    <div class="r translate"></div>
+    <div class="r rotate"></div>
+    <div class="r scale"></div>
+    <div class="b skewx"></div>
+    <div class="r skewy"></div>
+</body>
+</html>
